@@ -79,15 +79,25 @@ In Laravel, uploaded files (like product images) are typically stored in the `st
 
 ### Run the Storage Link Command
 
-After setting up your environment and running migrations, you should run the following Artisan command:
 
-```bash
-php artisan storage:link
 
-### Compile Assets
+php artisan storage:link.
 
-Compile the assets for development:npm run dev
-For production, use:npm run prod
+### Install Laravel UI
+
+First, you need to install the Laravel UI package using Composer:composer require laravel/ui
+
+### Generate Bootstrap Scaffolding with Authentication
+
+Once Laravel UI is installed, you can generate the frontend scaffolding for Bootstrap, along with authentication views:php artisan ui bootstrap --auth
+
+### Install Node.js Dependencies and Compile Assets
+
+After setting up the scaffolding, you need to install the necessary Node.js dependencies and compile the assets:npm install && npm run dev
+
+### Compile Assets for Production (Optional)
+
+If you are preparing your application for production, you can compile the assets using the following command:npm run prod
 
 ### Serve the Application
 
