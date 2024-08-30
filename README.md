@@ -6,9 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-echo "composer require laravel/ui" > commands.txt
-echo "php artisan ui bootstrap --auth" >> commands.txt
-echo "npm install && npm run dev" >> commands.txt
+
 
 ## About project
 
